@@ -2,6 +2,10 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.InputMismatchException;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.BufferedWriter;
 
 public class Main {
     //======================================[ IESTATĪJUMI ]===============================================
@@ -127,8 +131,48 @@ public class Main {
                 }
             }
         } else {
+            File dir2 = new File(System.getProperty("user.dir") + "/src/main/java/arhivs");
+            String fileName = "piemers.java";
+            String content = "package proj;\n\npublic class piemers {\n" +
+                "    public static void main(String[] args) {\n" +
+                "        System.out.println(\"Hello, World!\");\n" +
+                "    }\n" +
+                "}";
+
             System.out.println("The path does not exist or is not a directory.");
-            System.out.println("ši huina atkal nestrada, Es gribu pakarties");
+            System.out.println("uztaisa proj un arhivs folderus");
+
+            if (dir.exists()) {
+                if (dir.isDirectory()) {
+                    System.out.println("This dosent make sense");
+                } else {
+                    System.out.println("The path exists, but it's not a directory, delete proj and arhivs files before");
+                }
+            } else {
+                if (dir.mkdirs() && dir2.mkdirs()) {
+                    System.out.println("Directory created successfully.");
+                    File newJavaFile = new File(dir, fileName);
+                    BufferedWriter writer = null;
+                    try {
+                        writer = new BufferedWriter(new FileWriter(newJavaFile));
+                        writer.write(content);
+                        System.out.println("File created and content written to " + newJavaFile.getAbsolutePath());
+                    } catch (IOException e) {
+                        System.out.println("Error creating or writing to the file: " + e.getMessage());
+                    } finally {
+                        if (writer != null) {
+                            try {
+                                writer.close();
+                            } catch (IOException e) {
+                                System.out.println("Error closing the writer: " + e.getMessage());
+                            }
+                        }
+                    }
+                    System.out.println("Relaunch the app");
+                } else {
+                    System.out.println("Failed to create the directory.");
+                }
+            }
             System.exit(1);
         }
         input.close();
