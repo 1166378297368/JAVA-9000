@@ -81,7 +81,7 @@ public class Main {
                 System.out.println("  ___) | | | | | |_| |_| |_| | | |_| | (_| |\\ V / (_| | | |__| (_| | |_| | | | | (__| | | |  __/ |   ");
                 System.out.println(" |____/|_| |_|_|\\__|\\__|\\__, |  \\___/ \\__,_| \\_/ \\__,_| |_____\\__,_|\\__,_|_| |_|\\___|_| |_|\\___|_|   ");
                 System.out.println("                        |___/                                                                        ");
-                System.out.println(" MADE BY SIGMATRON™ LIEPTONS™ SOFTWARE™ INCORPORATED™\n");
+                System.out.println(" MADE BY SIGMATRON™ LIEPTONS™ SOFTWARE™ INCORPORATED™ - V.1.0.0\n");
 
                 int i = 1;
                 System.out.println("0 | EXIT");
