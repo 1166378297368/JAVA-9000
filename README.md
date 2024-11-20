@@ -19,6 +19,9 @@ Tātad, ja tev nav, uztaisu jaunu replit projektu "Java". Tad Vienkārši copy &
 
 ### Info
 ---
+
+Ja tu paskatījies automātiski ģenērēto piemēru tu pamanīsi ka viņš sākas ar ```package proj;``` tam tev ir jābūt tagad *pašā* augšā katram .java ko tu taisi proj folderī.
+
 BTW iekša Main.java ir 2 settingi:
   1. vai atgriesties launcheri = true/false
   2. gaidisanas laiks lai atgriestos = 0/inf
