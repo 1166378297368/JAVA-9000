@@ -59,8 +59,6 @@ public class Main {
 
         File dir = new File(System.getProperty("user.dir") + "/src/main/java/proj");
 
-        System.out.println("");
-
         Scanner input = new Scanner(System.in);
 
         if (dir.exists() && dir.isDirectory()) {
