@@ -15,7 +15,10 @@ Lai bažillions komentārus nevajag rakstīt.
 
 ### Kā instalēt šo mēslu?
 ---
-Tātad, ja tev nav, uztaisu jaunu replit projektu "Java". Tad Vienkārši copy & paste no ši github reposiotrija Main.java iekšā replit Main.java. Tad palaid un vinam automātiski vajadzētu uztaisīt proj un arhīva folderus. Tālāk visam vajadzētu strādāt (es ceru)
+Tātad, ja tev nav, uztaisu jaunu replit projektu "Java". Tad Vienkārši copy & paste no ši github reposiotrija (vai ari lejuplade no releases) Main.java iekšā replit Main.java. Tad palaid un vinam automātiski vajadzētu uztaisīt proj un arhīva folderus. Tālāk visam vajadzētu strādāt (es ceru)
 
-
-
+### Info?
+---
+BTW iekša Main.java ir 2 settingi:
+  1. vai atgriesties launcheri = true/false
+  2. gaidisanas laiks lai atgriestos = 0/inf
