@@ -56,9 +56,7 @@ public class Main {
 
     public static void main(String[] args) {
         boolean stop = false;
-
         File dir = new File(System.getProperty("user.dir") + "/src/main/java/proj");
-
         Scanner input = new Scanner(System.in);
 
         if (dir.exists() && dir.isDirectory()) {
@@ -105,9 +103,19 @@ public class Main {
                     }
                     if (target < 0) {
                         System.out.println("Nepareizs skaitlis");
+                        try {
+                            TimeUnit.SECONDS.sleep(3);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                     } else {
                         if (target > directoryListing.length) {
                             System.out.println("Nepareizs skaitlis");
+                            try {
+                                TimeUnit.SECONDS.sleep(3);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
                         } else {
                             System.out.print("\033[H\033[2J");
                             System.out.print("\033[H\033[2J");
