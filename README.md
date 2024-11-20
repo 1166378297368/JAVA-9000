@@ -15,7 +15,7 @@ Lai bažillions komentārus nevajag rakstīt.
 
 ### Kā instalēt šo mēslu?
 ---
-Vai nu uztaisi jaunu
+Tātad, ja tev nav, uztaisu jaunu replit projektu "Java". Tad Vienkārši copy & paste no ši github reposiotrija Main.java iekšā replit Main.java. Tad palaid un vinam automātiski vajadzētu uztaisīt proj un arhīva folderus. Tālāk visam vajadzētu strādāt (es ceru)
 
 
 
