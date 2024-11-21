@@ -24,7 +24,7 @@ Ja tu paskatījies automātiski ģenērēto piemēru tu pamanīsi ka viņš sāk
 
 BTW iekša Main.java ir 2 settingi:
   1. vai atgriesties launcheri = true/false
-  2. gaidisanas laiks lai atgriestos = 0/inf
+  2. gaidisanas laiks lai atgriestos = 0/inf (es nezinu kapēc tu gribētu gaidīt 9999999999... sekundes.)
 
 ## License
 
