@@ -5,7 +5,7 @@
  ___) | | | | | |_| |_| |_| | | |_| | (_| |\ V / (_| | | |__| (_| | |_| | | | | (__| | | |  __/ |   
 |____/|_| |_|_|\__|\__|\__, |  \___/ \__,_| \_/ \__,_| |_____\__,_|\__,_|_| |_|\___|_| |_|\___|_|   
                         |___/                                                                        
-MADE BY SIGMATRON™ LIEPTONS™ SOFTWARE™ INCORPORATED™(™)^™
+MADE BY SIGMATRON™ LIEPTONS™ SOFTWARE™ INCORPORATED™(©)^™
 ```
 
 ## Kas? Kapēc?
