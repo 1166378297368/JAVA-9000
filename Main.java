@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.BufferedWriter;
+import java.util.Random;
 
 public class Main {
     //======================================[ IESTATĪJUMI ]===============================================
@@ -121,9 +122,17 @@ public class Main {
                                 e.printStackTrace();
                             }
                         } else {
-                            System.out.print("\033[H\033[2J");
-                            System.out.print("\033[H\033[2J");
-                            exec(directoryListing[target - 1].getName());
+                            Random rand = new Random(); 
+                            int value = rand.nextInt(50); 
+                            if (value ==2) {
+                              System.out.println("This feature is only availible to platnum users of our software, please upgrade to platnum to use this feature");
+                              System.out.println("50% DISCOUNT ON PLATNUM, ONLY 3 BITCOINS A MONTH!");
+                              System.exit(0);
+                            } else {
+                              System.out.print("\033[H\033[2J");
+                              System.out.print("\033[H\033[2J");
+                              exec(directoryListing[target - 1].getName());
+                            }
                         }
                     }
                 } else {
