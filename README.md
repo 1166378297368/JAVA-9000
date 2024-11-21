@@ -25,3 +25,9 @@ Ja tu paskatījies automātiski ģenērēto piemēru tu pamanīsi ka viņš sāk
 BTW iekša Main.java ir 2 settingi:
   1. vai atgriesties launcheri = true/false
   2. gaidisanas laiks lai atgriestos = 0/inf
+
+## License
+---
+I do not believe IP is a valid form of property. You can do whatever you want with this software. If you wish to see legalese :[[LICENSE]]
+
+[^1]: See: *Why Artists Shouldn't Own Their Art*, https://youtu.be/4xKjHHzLUQQ
