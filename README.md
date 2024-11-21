@@ -28,5 +28,5 @@ BTW iekša Main.java ir 2 settingi:
 
 ## License
 ---
-I do not believe IP is a valid form of property. You can do whatever you want with this software. If you wish to see legalese :https://github.com/1166378297368/ShittyJavaLauncher/blob/main/LICENSE
+I do not believe IP is a valid form of property. You can do whatever you want with this software. If you wish to see legalese: https://github.com/1166378297368/ShittyJavaLauncher/blob/main/LICENSE
 
